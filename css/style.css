@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Italiana&family=Merriweather&family=Montserrat:wght@700&family=Roboto:wght@100;300&family=Rubik:wght@300&family=Sen&display=swap");
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.modal1 {
+  width: 295px;
+  height: 468px;
+  background: rgba(175, 3, 3, 0.89);
+  border-radius: 31px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal1 h1 {
+  width: 100px;
+  height: 14px;
+  font-family: "Syncopate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 12px;
+  letter-spacing: -0.035em;
+  color: #ededed;
+  margin-top: 29px;
+}
+.modal1 ul {
+  height: 314px;
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal1 ul > .f {
+  width: 196px;
+  height: 40px;
+  background: rgba(69, 0, 0, 0.97);
+  border-radius: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0.005em;
+  color: #efe5e5;
+  box-shadow: 0px 0px 0px 10px rgba(58, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal1 ul > .s {
+  width: 151px;
+  height: 31px;
+  background: #940505;
+  border-radius: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0.005em;
+  color: #000000;
+  box-shadow: 0px 0px 0px 10px rgb(223, 9, 9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal1 li {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.modal1 .close {
+  width: 58px;
+  height: 12px;
+  font-family: "Syncopate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.05em;
+  color: #000000;
+  width: 99px;
+  height: 32px;
+  background: #d80808;
+  border-radius: 27px;
+  border: none;
+  margin-top: 26px;
+}
+
+.modal2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/Rectangle\ 53.png);
+}
+.modal2 h1 {
+  width: 302px;
+  height: 80px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  font-family: "Syncopate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 35px;
+  letter-spacing: -0.105em;
+  color: #e6dede;
+}
+.modal2 .modalForm {
+  text-align: center;
+}
+.modal2 .pi {
+  box-sizing: border-box;
+  width: 302px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.48);
+  border: 4px solid rgba(238, 5, 5, 0.25);
+  border-radius: 15px;
+  margin-bottom: 50px;
+  color: #f80000;
+  padding-left: 15px;
+}
+.modal2 .pi::-moz-placeholder {
+  color: #fc0000;
+}
+.modal2 .pi::placeholder {
+  color: #fc0000;
+}
+
+.sendBack {
+  width: 194px;
+  height: 54px;
+  background: #d80808;
+  border-radius: 27px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #e5dede;
+  border: none;
+  margin-top: 140px;
+}
+
+.modal3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/Rectangle\ 53.png);
+  text-align: center;
+  padding-top: 200px;
+}
+.modal3 h1 {
+  height: 173px;
+  font-family: "Syncopate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 119.6%;
+  /* or 36px */
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: #ffffff;
+}
