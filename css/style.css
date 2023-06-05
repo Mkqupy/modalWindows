@@ -226,3 +226,44 @@ table {
   letter-spacing: 0.035em;
   color: #ffffff;
 }
+
+@media (min-width: 992px) {
+  .modal2 {
+    width: 75%;
+    height: 75%;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    border: 20px solid rgba(194, 0, 0, 0.52);
+  }
+  .modal2 .modalForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modal2 h1 {
+    width: 630px;
+    height: 72px;
+  }
+  .modal2 .pi {
+    width: 86%;
+    height: 50px;
+    margin-top: 15px;
+  }
+  .modal2 .sendBack {
+    position: relative;
+    bottom: 90px;
+  }
+  .modal3 {
+    width: 75%;
+    height: 75%;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
