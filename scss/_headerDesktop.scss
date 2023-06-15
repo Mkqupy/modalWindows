@@ -1,0 +1,131 @@
+@media (min-width: 992px) {
+  .burger {
+    label span {
+      display: none;
+    }
+  }
+  header {
+    height: 900px;
+    .desk {
+      display: flex;
+
+      width: 728px;
+      height: 800px;
+
+      position: relative;
+      left: 400px;
+      bottom: 270px;
+    }
+    .mob {
+      display: none;
+    }
+    .qwe1 {
+      width: 677.77px;
+      height: 87.19px;
+
+      font-family: "Syncopate";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 100%;
+      /* or 96px */
+
+      letter-spacing: 0.005em;
+
+      color: #eeeeee;
+
+      left: 70px;
+    }
+    .qwe2 {
+      width: 507px;
+      height: 92px;
+
+      font-family: "Syncopate";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 95px;
+      line-height: 92px;
+      /* identical to box height, or 97% */
+
+      letter-spacing: 0.025em;
+
+      color: #eeeeee;
+
+      left: 800px;
+      top: 500px;
+    }
+
+    .any {
+      width: 303px;
+      height: 59px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      /* or 147% */
+
+      letter-spacing: 0.05em;
+
+      left: 200px;
+      top: 460px;
+    }
+
+    .fast {
+      width: 191px;
+      height: 27px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+
+      letter-spacing: 0.05em;
+
+      bottom: 910px;
+      left: 1070px;
+    }
+
+    button{
+        width: 172px;
+height: 56px;
+
+position: relative;
+top: -240px;
+left: 1300px;
+
+background: #D80808;
+border-radius: 27px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 19px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+    }
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    li {
+      width: 110px;
+      height: 21px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+      color: #ffffff;
+    }
+  }
+}
