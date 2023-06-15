@@ -9,12 +9,19 @@
     .desk {
       display: flex;
 
-      width: 728px;
-      height: 800px;
+      // width: 728px;
+      // height: 800px;
+
+      // position: relative;
+      // left: 400px;
+      // bottom: 270px;
+
+
+      width: 40%;
+      margin: 0 auto;
 
       position: relative;
-      left: 400px;
-      bottom: 270px;
+      bottom: 30%;
     }
     .mob {
       display: none;
@@ -22,6 +29,8 @@
     .qwe1 {
       width: 677.77px;
       height: 87.19px;
+      // width: 40%;
+      // height: 5%;
 
       font-family: "Syncopate";
       font-style: normal;
@@ -52,7 +61,7 @@
       color: #eeeeee;
 
       left: 800px;
-      top: 500px;
+      top: 400px;
     }
 
     .any {
@@ -68,8 +77,8 @@
 
       letter-spacing: 0.05em;
 
-      left: 200px;
-      top: 460px;
+      left: 248px;
+      top: 350px;
     }
 
     .fast {
@@ -84,17 +93,15 @@
 
       letter-spacing: 0.05em;
 
-      bottom: 910px;
-      left: 1070px;
+      bottom: 820px;
+      left: 1020px;
     }
 
     button{
         width: 172px;
 height: 56px;
 
-position: relative;
-top: -240px;
-left: 1300px;
+position: inherit;
 
 background: #D80808;
 border-radius: 27px;
@@ -106,13 +113,24 @@ font-size: 19px;
 line-height: 22px;
 
 color: #FFFFFF;
+margin: 0 50px;
 
+
+    }
+
+    .textnone{
+      display: flex;
+    }
+    .top{
+      display: flex;
+      justify-content: space-between;
     }
   }
   .menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
     li {
       width: 110px;
