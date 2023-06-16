@@ -1,4 +1,4 @@
-.menu{
+.menu {
   display: none;
 }
 
@@ -88,12 +88,14 @@ input[type="checkbox"]:checked ~ label span::after {
   top: 0;
   transform: rotate(90deg);
 }
-// input[type="checkbox"]:checked ~ #menu{
-//   opacity: 1;
-// }
+input[type="checkbox"]:checked ~ .modal1 {
+  opacity: 1;
+}
 
 header {
   background-image: url(../img/Rectangle\ 34.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 800px;
   overflow: hidden;
   .desk {
@@ -174,6 +176,11 @@ header {
     left: 37px;
     top: 350px;
     z-index: 2;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
   }
 
   .mob {
@@ -222,7 +229,7 @@ header {
     bottom: 185px;
     left: 216px;
   }
-  .textnone{
+  .textnone {
     display: none;
   }
 }

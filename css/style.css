@@ -71,6 +71,8 @@ table {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 5;
+  opacity: 0;
 }
 .modal1:target {
   opacity: 1;
@@ -158,6 +160,7 @@ table {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/Rectangle\ 53.png);
+  z-index: 5;
 }
 .modal2 h1 {
   width: 302px;
@@ -209,6 +212,9 @@ table {
   line-height: 16px;
   color: #f80000;
 }
+.modal2:target {
+  opacity: 1;
+}
 
 .sendBack {
   width: 194px;
@@ -231,6 +237,7 @@ table {
   background-image: url(../img/Rectangle\ 53.png);
   text-align: center;
   padding-top: 200px;
+  opacity: 0;
 }
 .modal3 h1 {
   height: 173px;
@@ -243,6 +250,9 @@ table {
   text-align: center;
   letter-spacing: 0.035em;
   color: #ffffff;
+}
+.modal3:target {
+  opacity: 1;
 }
 
 @media (min-width: 992px) {
@@ -372,8 +382,14 @@ input[type=checkbox]:checked ~ label span::after {
   transform: rotate(90deg);
 }
 
+input[type=checkbox]:checked ~ .modal1 {
+  opacity: 1;
+}
+
 header {
   background-image: url(../img/Rectangle\ 34.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 800px;
   overflow: hidden;
 }
@@ -431,6 +447,10 @@ header button {
   left: 37px;
   top: 350px;
   z-index: 2;
+}
+header button a {
+  color: #ffffff;
+  text-decoration: none;
 }
 header .mob {
   position: relative;
